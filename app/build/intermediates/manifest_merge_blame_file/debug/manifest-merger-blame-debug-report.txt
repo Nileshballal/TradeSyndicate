@@ -1,0 +1,165 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.syndicate.lead"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:8:5-79
+11-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:8:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:9:5-66
+12-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:9:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:8:5-79
+13-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:8:5-79
+14-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:12:5-80
+15-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:12:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:13:5-78
+16-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:13:22-76
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:14:5-80
+17-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:14:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:15:5-79
+18-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:15:22-77
+19
+20    <uses-feature android:name="android.hardware.camera.autofocus" />
+20-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:16:5-70
+20-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:16:19-67
+21
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:17:5-65
+22-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:17:22-62
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:18:5-76
+23-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:18:22-73
+24    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+24-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:19:5-71
+24-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:19:22-68
+25    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+25-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:20:5-74
+25-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:20:22-71
+26    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+26-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:21:5-74
+26-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:21:22-71
+27    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+27-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:70:5-74
+27-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:70:22-71
+28    <uses-permission android:name="android.permission.BLUETOOTH" />
+28-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:71:5-68
+28-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:71:22-65
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:9:5-66
+29-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:9:22-64
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:14:5-80
+30-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:14:22-78
+31    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+31-->[com.mojoauth.android:mojoauth-sdk:1.1.0] C:\Users\Nilesh Ballal\.gradle\caches\transforms-2\files-2.1\0752b77141a5dfe88eea98b7fcacc517\mojoauth-sdk-1.1.0\AndroidManifest.xml:12:5-76
+31-->[com.mojoauth.android:mojoauth-sdk:1.1.0] C:\Users\Nilesh Ballal\.gradle\caches\transforms-2\files-2.1\0752b77141a5dfe88eea98b7fcacc517\mojoauth-sdk-1.1.0\AndroidManifest.xml:12:22-73
+32
+33    <application
+33-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:23:5-69:19
+34        android:name="androidx.multidex.MultiDexApplication"
+35        android:allowBackup="false"
+35-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:24:9-36
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.3.0] C:\Users\Nilesh Ballal\.gradle\caches\transforms-2\files-2.1\b681b7e6cc2e7ce991b54f32936075fc\core-1.3.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:25:9-43
+39        android:label="@string/app_name"
+39-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:27:9-41
+40        android:requestLegacyExternalStorage="true"
+40-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:29:9-52
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:26:9-54
+42        android:supportsRtl="true"
+42-->[com.github.ar-android:AndroidSvgLoader:1.0.0] C:\Users\Nilesh Ballal\.gradle\caches\transforms-2\files-2.1\b6e2ac0e0cc3d1fdcae52f2cc461ab1d\AndroidSvgLoader-1.0.0\AndroidManifest.xml:14:9-35
+43        android:theme="@style/AppTheme"
+43-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:31:9-40
+44        android:usesCleartextTraffic="true" >
+44-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:28:9-44
+45        <uses-library
+45-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:33:9-35:40
+46            android:name="org.apache.http.legacy"
+46-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:34:13-50
+47            android:required="false" />
+47-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:35:13-37
+48
+49        <activity
+49-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:37:9-45:20
+50            android:name="com.syndicate.lead.activity.MainActivity"
+50-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:38:13-68
+51            android:label="@string/app_name" >
+51-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:39:13-45
+52            <intent-filter>
+52-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:40:13-44:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:41:17-69
+53-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:41:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:43:17-77
+55-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:43:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:46:9-47:58
+59            android:name="com.syndicate.lead.activity.LeadsMainActivity"
+59-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:46:19-79
+60            android:theme="@style/AppTheme.NoActionBar" />
+60-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:47:13-56
+61        <activity
+61-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:49:9-50:58
+62            android:name="com.syndicate.lead.activity.DashboardActivity"
+62-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:49:19-79
+63            android:theme="@style/AppTheme.NoActionBar" />
+63-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:50:13-56
+64        <activity android:name="com.syndicate.lead.activity.CorporateRegistrationActivity" />
+64-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:53:9-93
+64-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:53:19-91
+65        <activity android:name="com.syndicate.lead.activity.UserRegistrationActivity" />
+65-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:54:9-88
+65-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:54:19-86
+66        <activity android:name="com.syndicate.lead.activity.EnquiryActivity" />
+66-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:55:9-79
+66-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:55:19-77
+67        <activity android:name="com.syndicate.lead.corporate.LiveLeadsActivity" />
+67-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:56:9-82
+67-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:56:19-80
+68        <activity android:name="com.syndicate.lead.corporate.EnquriesActivity" />
+68-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:57:9-81
+68-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:57:19-79
+69
+70        <provider
+71            android:name="androidx.core.content.FileProvider"
+71-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:60:13-62
+72            android:authorities="com.syndicate.lead.provider"
+72-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:61:13-60
+73            android:exported="false"
+73-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:62:13-37
+74            android:grantUriPermissions="true" >
+74-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:63:13-47
+75            <meta-data
+75-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:64:13-66:58
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:65:17-67
+77                android:resource="@xml/provider_paths" />
+77-->F:\E_Drive_Backup\Nilesh Image\LeadsApp\app\src\main\AndroidManifest.xml:66:17-55
+78        </provider>
+79    </application>
+80
+81</manifest>
